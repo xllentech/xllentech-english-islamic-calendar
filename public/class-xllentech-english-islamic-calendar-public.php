@@ -124,7 +124,6 @@ class Xllentech_English_Islamic_Calendar_Public {
 	public function calculate_islamic_date( $english_month, $stack ) {
 		
 		if( $stack > 12 ) {
-			
 			_e( "Xllentech Calendar Error: Islamic Date could not be found in the database. Please contact support or Add islamic date in the database from the Xllentech Calendar Settings -> Troubleshooting page." );
 			return;
 		}
@@ -228,14 +227,12 @@ class Xllentech_English_Islamic_Calendar_Public {
 	 *
 	 * @since    2.5.0
 	 */
-	public function xc_display_base_header( $english_currentmonth, $english_currentyear, $islamic_firstmonth, $islamic_firstyear ) { 
+	public function xc_display_base_header( $english_currentmonth, $english_currentyear, $islamic_firstmonth, $islamic_firstyear ) {
 	
 		$xc_options = get_option("xc_options");
-		
 		?>
 		<table border='1' class='xc_table_<?php esc_attr( $xc_options['xc_color_theme'] ); ?>'>
 		
-
 			<thead>
 				<tr class='xllentech-main-nav xllentech_header'>
 					<th colspan='7'>
