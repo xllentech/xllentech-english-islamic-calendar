@@ -3,8 +3,8 @@ Contributors: xllentech
 Plugin URI: https://xllentech.com/
 Tags: calendar, islamic calendar, hijri calendar, english islamic calendar, gregorian hijri calendar, xllentech calendar, php 
 Requires at least: 3.0
-Tested up to: 6.6
-Stable tag: 2.7.3
+Tested up to: 6.9
+Stable tag: 2.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,6 +110,10 @@ Please Login to WordPress Admin panel, Visit Settings->Xllentech Calendar, go to
 
 
 == Changelog ==
+= 2.8.0 =
+* Updated: Islamic date for new installs
+* Updated: Tested 6.9 Compatibility
+
 = 2.7.3 =
 * Updated: Islamic date for new installs
 * Updated: Tested 6.6 Compatibility

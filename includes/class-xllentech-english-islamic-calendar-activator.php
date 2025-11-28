@@ -24,11 +24,11 @@ class Xllentech_English_Islamic_Calendar_Activator {
 	public static function activate() {
 		global $wpdb;
 		
-		$english_month = 8;
-		$english_year = 2024;
-		$islamic_day = 26;
-		$islamic_month = 1;
-		$islamic_year = 1446;
+		$english_month = 12;
+		$english_year = 2025;
+		$islamic_day = 9;
+		$islamic_month = 6;
+		$islamic_year = 1447;
 
 		$table1_name = $wpdb->prefix . 'month_days'; 
 		$table2_name = $wpdb->prefix . 'month_firstdate'; 

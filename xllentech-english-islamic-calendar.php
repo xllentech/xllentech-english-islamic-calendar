@@ -15,7 +15,7 @@
  * Plugin Name:       XllenTech English Islamic Calendar
  * Plugin URI:        https://wordpress.org/plugins/xllentech-english-islamic-calendar/
  * Description:       The Best English Islamic Calendar plugin on Wordpress. It shows calendar with English(gregorian) and Islamic(hijri) dates. No maintenace year to year.
- * Version:           2.7.3
+ * Version:           2.8.0
  * Author:            XllenTech Solutions
  * Author URI:        https://xllentech.com
  * License:           GPL-2.0+
@@ -29,7 +29,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-if ( ! defined( "XC_PLUGIN_VERSION" ) ) 	define( "XC_PLUGIN_VERSION",  "2.7.3");
+if ( ! defined( "XC_PLUGIN_VERSION" ) ) 	define( "XC_PLUGIN_VERSION",  "2.8.0");
 if ( ! defined( "XC_PLUGIN_DIR" ) ) define( "XC_PLUGIN_DIR", plugin_dir_path( __FILE__ ));
 if ( ! defined( 'XC_PLUGIN_URL' ) ) define( 'XC_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 	// Plugin Basename aka: "pluginfolder/mainfile.php"
